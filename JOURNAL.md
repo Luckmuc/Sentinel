@@ -10,8 +10,13 @@ This is my journal of the design and building process of **Sentinel**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/77).
 
 
-## 10/3/2025 - Got the idea of this project  
+## 10/3/2025 6 PM - Got the idea of this project  
 
 I got the idea of this project and because I'm just bored all day and only would play Valorant i thought it's a good idea but I'm not really aiming for one of the prizes, they're cool but I don't really need em, maybe some more are coming soon. There is one tiny little problem: I don't know how to create an whole operating system for esp32 with display so ig Copilot gotta cook a bit. I alr got an esp with display @ home but only the back buttons, ig i'ma have to use the touchscreen (meh). Hope i can learn some more stuff bout apis, esps and networking, i alr did sum kind of research so i have an raw idea on how to do it...![logo.jpg](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTkzLCJwdXIiOiJibG9iX2lkIn19--e5dc6d2b1390754d862844b582402bc64d5b1a49/logo.jpg)
+  
+
+## 10/3/2025 9 PM - First beginning of the OS  
+
+it now displays the icon of sentinel (it's supposed to do that when booting or loading), I'm just scared that there isn't enough space in the flash storage for more pics or stuff like that (let's hope there won't be more). Problem: i wasted something like an hour just for making an esp32 display a picture correctly, that is gonna be a very time costy project but luckily Blueprint doesnt go after hours, else i'd be fraud banned immediatly lol![IMG_8920.jpeg](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjMxLCJwdXIiOiJibG9iX2lkIn19--beba8f2eaacfeb955ec47605c1df959f6232b595/IMG_8920.jpeg)
   
 
