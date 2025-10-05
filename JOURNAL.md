@@ -20,7 +20,7 @@ I got the idea of this project and because I'm just bored all day and only would
 it now displays the icon of sentinel (it's supposed to do that when booting or loading), I'm just scared that there isn't enough space in the flash storage for more pics or stuff like that (let's hope there won't be more). Problem: i wasted something like an hour just for making an esp32 display a picture correctly, that is gonna be a very time costy project but luckily Blueprint doesnt go after hours, else i'd be fraud banned immediatly lol![IMG_8920.jpeg](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjMxLCJwdXIiOiJibG9iX2lkIn19--beba8f2eaacfeb955ec47605c1df959f6232b595/IMG_8920.jpeg)
   
 
-## 10/5/2025 - Captive Portal added  
+## 10/5/2025 12 PM - Captive Portal added  
 
 The esp32 now creates an open wifi network
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTE3LCJwdXIiOiJibG9iX2lkIn19--1926435230df45007ed010f18cdbc4ca39ded937/image.png)
@@ -28,4 +28,10 @@ with which you can connect. then a captive portal pops up. You gotta put in your
 ![IMG_8935.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTE5LCJwdXIiOiJibG9iX2lkIn19--e769e28426c0056c77c5927bc5b5a4058ad56e81/IMG_8935.png)
 ![IMG_8934.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTE4LCJwdXIiOiJibG9iX2lkIn19--8a810506aff58710485ffcd13ffbde5ac5dcdad2/IMG_8934.png)
   
+
+## 10/5/2025 4 PM - Connecting to wifi works  
+
+The esp32 now connects itself to the internet/given wifi + you can still access the Sentinel Setup at the IP of the esp32 if you'd need it sometime
+![Screenshot 2025-10-05 181602.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTgzLCJwdXIiOiJibG9iX2lkIn19--6d39c815a2b08a1442242c0e5cf94a8b7497b868/Screenshot%202025-10-05%20181602.png)
+I think I'll begin with the server software soon, that'll be a pain... or I make the case n battery stuff for the esp32  
 
