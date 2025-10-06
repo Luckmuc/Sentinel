@@ -1,0 +1,27 @@
+# Example systemd service override
+# Place this file at: /etc/systemd/system/sentinel-server.service.d/override.conf
+# This allows customization without modifying the main service file
+
+[Unit]
+# Add additional dependencies if needed
+# After=network-online.target some-other-service.target
+
+[Service]
+# Customize resource limits
+# LimitNOFILE=131072
+# LimitNPROC=8192
+
+# Add environment variables
+# Environment=CUSTOM_VAR=value
+
+# Customize restart behavior
+# RestartSec=5
+# StartLimitInterval=60
+# StartLimitBurst=3
+
+# Add custom paths for security
+# ReadWritePaths=/custom/path
+
+[Install]
+# Customize installation targets if needed
+# WantedBy=graphical.target

@@ -1,0 +1,33 @@
+[Unit]
+Description=Sentinel Server - System Monitoring and Management Service
+Documentation=https://github.com/Luckmuc/Sentinel-Server
+After=network.target network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+ExecStart=/usr/bin/python3 /opt/sentinel-server/src/sentinel_server.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=sentinel-server
+
+# Security settings
+NoNewPrivileges=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/etc/sentinel-server /var/log /tmp
+
+# Resource limits
+LimitNOFILE=65535
+LimitNPROC=4096
+
+# Environment
+Environment=PYTHONPATH=/opt/sentinel-server
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
